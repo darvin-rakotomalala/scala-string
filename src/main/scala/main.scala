@@ -31,6 +31,69 @@ def main(): Unit =
   println("- String equals example")
   strExample.stringEquals()
 
+  println("--------------------------------------------------------------")
+
+  val splitExample = new SplitDemo()
+  println("- String Split example")
+  splitExample.splitExample()
+
+  println("- Multiple delimiters example")
+  splitExample.multipleDelimiters()
+
+  println("- Substring delimiter example")
+  splitExample.substringDelimiter()
+
+  println("- Regex example")
+  splitExample.regexExample()
+
+  println("--------------------------------------------------------------")
+  val stripExample = new StripDemo()
+
+  println("- StripLineEnd example")
+  stripExample.stripLineEnd()
+
+  println("- StripMargin example")
+  stripExample.stripMargin()
+
+  println("- StripMargin, no argument example")
+  stripExample.stripMarginNoArgument()
+
+  println("- StripPrefix, stripSuffix example")
+  stripExample.stripPrefixStripSuffix()
+
+  println("--------------------------------------------------------------")
+
+  println("- s interpolator example")
+  val interpolationEx = new StringInterpolationDemo()
+  interpolationEx.sInterpolatorExample()
+
+  println("- s interpolator function call example")
+  interpolationEx.sInterpolatorFunctionCall()
+
+  println("- f Interpolator example")
+  interpolationEx.fInterpolatorExample1()
+  interpolationEx.fInterpolatorExample2()
+
+  println("- raw Interpolator example")
+  interpolationEx.rawInterpolator()
+
+  println("--------------------------------------------------------------")
+  println("- StringContext example")
+  val strContext = new StringContextDemo()
+  strContext.stringContext()
+
+  println("- Creating our own interpolator example")
+  strContext.ourOwnInterpolator()
+
+  println("--------------------------------------------------------------")
+  println("- Regular Expressions example")
+  val regexExample = new RegularExpressionsDemo()
+  regexExample.regularExpressions()
+
+  println("- Regular Expressions matching.Regex example")
+  regexExample.matchingRegexExample1()
+  regexExample.matchingRegexExample2()
+
 
 
 
