@@ -94,6 +94,28 @@ def main(): Unit =
   regexExample.matchingRegexExample1()
   regexExample.matchingRegexExample2()
 
+  println("- StringBuilder appending character example")
+  val strBuildExample = new StringBuilderDemo()
+  strBuildExample.appendingCharacter()
+
+  println("- StringBuilder appending String example")
+  strBuildExample.appendingString()
+
+  println("- StringBuilder appending String representation of number")
+  strBuildExample.appendingStrOfNumber()
+
+  println("- Resetting the content of the StringBuilder")
+  strBuildExample.resettingContent()
+
+  println("- Delete operation example")
+  strBuildExample.deleteOperation()
+
+  println("- Insertion operation example")
+  strBuildExample.insertionOperation()
+
+  println("- Converting StringBuilder to a String example")
+  strBuildExample.convertStrBuilderToString()
+
 
 
 
