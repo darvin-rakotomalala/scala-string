@@ -116,6 +116,14 @@ def main(): Unit =
   println("- Converting StringBuilder to a String example")
   strBuildExample.convertStrBuilderToString()
 
+  println("--------------------------------------------------------------")
+  println("- Using concat() method to concat two String")
+  val concatExample = new StringConcatenationDemo()
+  concatExample.usingConcatMethod()
+
+  println("- Using + operator example")
+  concatExample.usingPlusOperator()
+
 
 
 
