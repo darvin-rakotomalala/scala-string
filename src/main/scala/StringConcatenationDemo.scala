@@ -41,5 +41,4 @@ class StringConcatenationDemo {
     println("After concatenate two string: " + str1 + str2);
   }
 
-
 }

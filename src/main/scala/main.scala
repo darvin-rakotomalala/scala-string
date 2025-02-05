@@ -124,6 +124,27 @@ def main(): Unit =
   println("- Using + operator example")
   concatExample.usingPlusOperator()
 
+  println("--------------------------------------------------------------")
+
+  /**
+   * Summary. In Scala, StringBuilder is a performance optimization, but it is a necessary one.
+   * It optimizes appending (or inserting, or replacing) many strings at once, with no allocations.
+   */
+  println("- Create StringBuilder example")
+  val strBuilderEx = new StrBuilderExample
+  strBuilderEx.createStrBuilder()
+
+  println("- StringBuilder append characters example")
+  strBuilderEx.appendCharacters()
+
+  println("- StringBuilder Insert, replace example")
+  strBuilderEx.insertReplace()
+
+  println("- StringBuilder Characters, charAt example")
+  strBuilderEx.charactersAndCharAt()
+
+
+
 
 
 
